@@ -25,12 +25,13 @@
 }
 .slogan {
 		font-family: 'sansationitalic';
- 		padding-top: 26px;
-}
+ 		padding-top: 28px;
+ 	}
 
 .links {
-		padding-top: 26px;
-
+		padding-top: 28px;
+		padding-right: 60px;
+		text-align:right;
 }
 .links a {
 		font-family: 'sansationregular' sans-serif;
@@ -52,6 +53,7 @@ h1 {
   	font-weight: bold;
   	font-size:48px;
   	padding-left: 30px;
+
   
 }
 
@@ -61,7 +63,15 @@ h2 {
 		padding-left: 30px;
 }
 
+.next-quote {
+	font-family: 'sansationregular' sans-serif;
+  color:#f84342;
+}
 
-
+.footer-blurb {
+  font-family: 'sansationregular' sans-serif;
+  text-align:right;
+  font-size: 10px
+}
 
 
