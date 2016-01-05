@@ -1,3 +1,6 @@
+@import url(https://fonts.googleapis.com/css?family=Architects+Daughter);
+
+
 .clear {
 	clear:both;
 }
@@ -21,8 +24,7 @@
     -webkit-transform:rotate(11deg); /* Opera, Chrome, and Safari */
 }
 .slogan {
-		font-family: Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans-serif;
- 		font-style: italic;
+		font-family: 'sansationitalic';
  		padding-top: 26px;
 }
 
@@ -31,20 +33,33 @@
 
 }
 .links a {
+		font-family: 'sansationregular' sans-serif;
 		color:black;
 		font-size: 25px;
 		border-bottom: 1px solid #dfdfdf;
 }
 
 header {
-
-	border-top: 9px solid #222222;
+		border-top: 9px solid #222222;
 }
 
 hr {
-	clear:both;
+		clear:both;
 }
 
+h1 {
+  	font-family: 'Architects Daughter', cursive; 
+  	font-weight: bold;
+  	font-size:48px;
+  	padding-left: 30px;
+  
+}
+
+h2 {
+		font-family: 'Architects Daughter', cursive;
+		font-style: italic;
+		padding-left: 30px;
+}
 
 
 
