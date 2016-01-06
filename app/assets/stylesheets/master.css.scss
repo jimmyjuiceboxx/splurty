@@ -4,25 +4,31 @@
 .clear {
 	clear:both;
 }
+
+.logo:hover {
+  text-decoration:none;
+}
+
 .circle {
-	font-family: Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans-serif;
+	font-family:'sansationregular' sans-serif;
     font-weight:bold;
     position: relative;
     border-radius: 100%;
     background: #f84342;
-    border: 1px solid #F7F7F7;
+    border: 2px solid #000000;
     width: 80px;
     height: 80px;
     margin: 10px 10px;
     text-align: center;
-    color: #FFF;
-    font-size: 10px;
+    color: #000000;
+    font-size: 13px;
     line-height: 16px;
     cursor: pointer;
     transform:rotate(11deg);
     -ms-transform:rotate(11deg); /* IE 9 */
     -webkit-transform:rotate(11deg); /* Opera, Chrome, and Safari */
-}
+
+    }
 .slogan {
 		font-family: 'sansationitalic';
  		padding-top: 28px;
@@ -64,14 +70,15 @@ h2 {
 }
 
 .next-quote {
-	font-family: 'sansationregular' sans-serif;
+	font-family: 'Architects Daughter', cursive; 
   color:#f84342;
+  font-size: 18px;
 }
 
 .footer-blurb {
   font-family: 'sansationregular' sans-serif;
   text-align:right;
-  font-size: 10px
+  font-size: 10px;
 }
 
 
