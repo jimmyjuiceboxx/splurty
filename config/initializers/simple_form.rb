@@ -160,7 +160,7 @@ SimpleForm.setup do |config|
   # Defines if the default input wrapper class should be included in radio
   # collection wrappers.
   # config.include_default_input_wrapper_class = true
-
+  config.label_text = lambda { |label, required, explicit_label| "#{} #{label}" }
   # Defines which i18n scope will be used in Simple Form.
   # config.i18n_scope = 'simple_form'
 end
