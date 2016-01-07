@@ -1,24 +1,23 @@
 @import url(https://fonts.googleapis.com/css?family=Architects+Daughter);
 
 ::selection {
-  background-color: #f84342;
+    background-color: #f84342;
 }
  
 h2 span {
-  color: #dddddd;
+    color: #dddddd;
 }
 
-
 .clear {
-	clear:both;
+	  clear:both;
 }
 
 .logo:hover {
-  text-decoration:none;
+    text-decoration:none;
 }
 
 .circle {
-	font-family:'sansationregular' sans-serif;
+	  font-family:'sansationregular' sans-serif;
     font-weight:bold;
     position: relative;
     border-radius: 100%;
@@ -36,11 +35,11 @@ h2 span {
     -ms-transform:rotate(11deg); /* IE 9 */
     -webkit-transform:rotate(11deg); /* Opera, Chrome, and Safari */
 
-    }
+}
 .slogan {
 		font-family: 'sansationitalic';
  		padding-top: 28px;
- 	}
+}
 
 .links {
 		padding-top: 28px;
@@ -66,16 +65,13 @@ h1 {
   	font-family: 'Architects Daughter', cursive; 
   	font-weight: bold;
   	font-size:48px;
-  	
-    
-  
 }
 
 h2 {
 		font-family:'sansationregular' sans-serif;
 		font-size: 25px;
-    
 }
+
 h3 {
   font-family: 'Architects Daughter', cursive;
     font-size: 32px;
@@ -86,8 +82,8 @@ h3 {
   	font-family:'sansationregular' sans-serif;     
     color:#f84342;
     font-size: 20px;
-    
 }
+
 a:hover {
   color:#f84342;
 }
@@ -111,9 +107,13 @@ a:hover {
 .modal-title {
     font-family: 'Architects Daughter', cursive; 
 }
+
 .modal-body {
     font-family: 'sansationregular' sans-serif;
 }
+
 .modal-footer {
      font-family: 'sansationregular' sans-serif;
 }
+
+
