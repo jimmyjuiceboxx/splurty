@@ -1,6 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Architects+Daughter);
-.body {background-color: #BDC3C7;
-}
+
 ::selection {
   background-color: #f84342;
 }
@@ -85,8 +84,12 @@ h3 {
 
 .next-quote {
   	font-family:'sansationregular' sans-serif;     
-    color: #f84342;
+    color:#f84342;
     font-size: 20px;
+    
+}
+a:hover {
+  color:#f84342;
 }
 
 .footer-blurb {
